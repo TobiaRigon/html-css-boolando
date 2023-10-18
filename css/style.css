@@ -4,3 +4,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    font-family: sans-serif;
+}
+
+/* header */
+header{
+    position: fixed;
+    width: 100%;
+   background-color: rgb(255, 111, 0);
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(1px 0px 2px #000000);
+}
+
+header a{
+    color: rgb(230, 230, 230);
+    
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width:calc(80% / 3);
+}
+
+.categoria a{
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 7px;
+    text-decoration: none;
+}
+
+.logo{
+    justify-content: center;
+}
+
+.menu{
+    flex-direction: row-reverse;
+}
+
+.menu a{
+    margin-left: 5px;
+}
+
+img[alt="Boolean logo"]{
+    height: 25px;
+}
+
+
+/* main */
+main{
+    padding-top: 100px;
+}
