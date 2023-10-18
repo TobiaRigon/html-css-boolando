@@ -84,9 +84,6 @@ main img{
 
 .card{
     position: relative;
-/* debug */
-/* height: 300px;
-    border:1px solid black; */
 }
 
 /* lable */
@@ -108,6 +105,25 @@ bottom:10%;
 .discount{
     background-color: red;
 }
+
+/* info */
+
+.info span{
+    font-size: 14px;
+}
+
+.price{
+    color:red;
+    font-weight: bold;
+}
+
+.old_price{
+    text-decoration: line-through;
+}
+
+/* like */
+
+
 
 
 .Sostenibilità{
