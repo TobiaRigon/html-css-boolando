@@ -86,6 +86,20 @@ main img{
     position: relative;
 }
 
+/* hover cards */
+
+.option_b{
+    display: none;
+}
+
+.card:hover .option_b{
+    display:block;
+}
+
+.card:hover .option_a{
+    display:none;
+}
+
 /* lable */
 
 .lable_row{
@@ -121,11 +135,25 @@ bottom:10%;
     text-decoration: line-through;
 }
 
-/* like */
-
-
-
 
 .Sostenibilità{
     background-color: green;
 }
+
+/* like */
+
+.like_container{
+    background-color: white;
+    padding: 5px;
+    position: absolute;
+    top: 2%;
+    right: 0%;
+}
+
+.like_container:hover .fa-heart{
+    color: red;
+}
+
+
+
+
