@@ -61,14 +61,10 @@ main{
     padding-top: 100px;
 }
 
-/* debug */
-main div{
-    border:1px solid red;
-}
-
 .row{
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .col{
